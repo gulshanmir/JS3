@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredit Kalkulyatoru</title>
+    <style>
+        #calculator{
+            display:flex;
+            flex-direction: column;
+            padding: 2rem;
+
+        }
+        #inp{
+            margin-bottom: 40px;
+            padding: 15px;
+            font-size: 15px;
+            width: 30%;
+        }
+        #inp2{
+            padding: 15px;
+            font-size: 15px;
+            width: 30%;
+            margin-bottom: 40px;
+
+        }
+        #inp3{
+            padding: 15px;
+            font-size: 15px;
+            width: 30%;
+            margin-bottom: 40px;
+        }
+        button {
+            width: 10%;
+            height: 60px;
+            background-color: green;
+            border: none;
+            cursor: pointer;
+            color: azure;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+      
+<div id="calculator">
+    <input type="text" id="inp" placeholder="Məbləğ">
+    <input type="text" id="inp2" placeholder="Faiz">
+    <input type="text" id="inp3" placeholder="Müddət">
+
+    <button id="btn" onclick="Hesabla()" >Hesabla</button>
+    
+</div>
+    
+    
+
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
